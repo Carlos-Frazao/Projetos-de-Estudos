@@ -1,9 +1,9 @@
-algoritmo "conversor"
+algoritmo "semnome"
 var
-   angulo, s: real
+   a, b, c: inteiro
 inicio
-      escreva("Informe um angulo: ")
-      leia(angulo)
-      s <- sen(graupRad(angulo))
-      escreva("O seno de",angulo, " e igual a", s)
+      a <- 2
+      b <- 3
+      c <- 5
+      escreva(a + b <= c)
 fimalgoritmo

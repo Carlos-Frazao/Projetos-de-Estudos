@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "conversor"
 var
    a, b, c: inteiro
 inicio

@@ -4,10 +4,10 @@ var
    n2: inteiro
    soma: inteiro
 inicio
-      escreva("Digite um número: ")
+      escreva("Digite um nï¿½mero: ")
       leia(n1)
-      escreva("Digite outro número: ")
+      escreva("Digite outro nï¿½mero: ")
       leia(n2)
       soma <- n1 + n2)
-      escreva("A soma entre", n1," e", n2," é igual a",soma)
+      escreva("A soma entre", n1," e", n2," ï¿½ igual a",soma)
 fimalgoritmo

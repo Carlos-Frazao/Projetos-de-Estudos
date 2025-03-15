@@ -2,6 +2,6 @@ algoritmo "primeiro"
 var
    msg: caractere
 inicio
-      msg <- "Olï¿½, Mundo!"
+      msg <- "Olá, Mundo!"
       escreval(msg)
 fimalgoritmo

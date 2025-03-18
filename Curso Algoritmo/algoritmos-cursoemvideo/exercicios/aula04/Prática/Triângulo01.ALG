@@ -11,7 +11,7 @@ inicio
     leia(l3)
 
      // Triângulo, se a soma de dois lados for maior que o terceiro.
-    tri <-(l1 + l2 > l3) e (l2 + l3 > l1) e (l1 + l3 > l2)
+    tri <-(l1 < l2 + l3) e (l2 < l3 + l1) e (l3 < l1 + l2)
 
     // Analisando a condição do triângulo equilátero.
     eq <- (l1 = l2) e (l2 = l3)
@@ -20,5 +20,5 @@ inicio
     es <- (l1 <> l2) e (l2 <> l3) e (l1 <> l3)
     escreval("Triângulo: ", tri)
     escreval("Equilátero: ", eq)
-    escreva("Escaleno: ", eq)
+    escreva("Escaleno: ", es)
 fimalgoritmo

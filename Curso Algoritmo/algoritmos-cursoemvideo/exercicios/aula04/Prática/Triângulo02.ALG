@@ -9,7 +9,7 @@ inicio
     leia(l2)
     escreva("Informe o lado 3: ")
     leia(l3)
-    
+
     // Analisando se os valores inseridos forma um triângulo.
     se (l1 + l2 > l3) e (l2 + l3 > l1) e (l3 + l1 > l2) entao 
         escreval("Triângulo.")

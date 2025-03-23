@@ -1,7 +1,8 @@
 algoritmo "Red_Tempo"
 var
-    cigarros_dias, anos_fumados: inteiro
-    ano, mes, dia, horas, minutos, segundoa, cigarro: real
+    cigarros_dias, anos_fumados: real
+    ano, mes, dia, horas, minutos, segundos, cigarro: real
+
 inicio
     escreva("Quantos cigarros você fuma por dia? ")
     leia(cigarros_dias)
@@ -14,8 +15,16 @@ inicio
     horas <- minutos / 60
     minutos <- segundos / 60
     segundos <- 60
-    cigarro <- (minustos / 10 = 1.5)
-    escreva(cigarro)
+
+    cigarro1 <- (minutos / 10)
+    escreval(cigarro)
+    escreval("oi")
+    se minutos / 10  entao 
+
+        escreva("vc fuma 1 cigas.")
+    senao
+        escreva("vc não fuma 1 cigas")
+    fimse
     //perde_vida <- cigarro_dias / 
 
 fimalgoritmo

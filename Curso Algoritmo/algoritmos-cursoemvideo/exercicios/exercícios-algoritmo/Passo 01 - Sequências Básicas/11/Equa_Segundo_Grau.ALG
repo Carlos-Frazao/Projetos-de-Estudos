@@ -1,6 +1,6 @@
 algoritmo "Equ_Segundo_Grau"
 var
-    a, b, c: real
+    a, b, c, delta: real
 inicio
     escreva("Informe o valor de A: ")
     leia(a)
@@ -9,4 +9,10 @@ inicio
     escreva("Informe o valor de C: ")
     leia(c)
     
+    // Calcular o delta
+    delta <- (b ^ 2) - 4 * a * c
+
+    escreva(delta)
 fimalgoritmo
+// 11) Desenvolva uma lógica que leia os valores de A, B e C de uma equação do 
+// segundo grau e mostre o valor de Delta.

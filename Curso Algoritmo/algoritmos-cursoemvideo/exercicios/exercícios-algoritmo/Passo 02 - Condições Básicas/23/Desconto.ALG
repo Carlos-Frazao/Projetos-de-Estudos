@@ -10,7 +10,7 @@ inicio
     escreva("Informe o valor da compra: ")
     leia(compra)
 
-    se sexo = "m" ou "f" entao 
+    se sexo = "m" e "f" entao 
         se sexo = "m" entao
             desc <- compra * (5 / 100)
             escreva("O valor da compra do ", nome, ", com 5% desconto é ", compra - desc)

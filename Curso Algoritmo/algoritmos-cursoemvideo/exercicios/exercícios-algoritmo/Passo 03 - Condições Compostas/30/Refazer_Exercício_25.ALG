@@ -20,9 +20,11 @@ inicio
                 escreval("Triângulo Isóceles.")
             fimse
         senao
+            // ESCALENO: Todos os lados diferentes.
             escreva("Triângulo Escaleno.")
         fimse
     senao
+        // Segmentos de retas informados não faz um triângulo.
         escreva("Segmento de retas informado. não forma um Triângulo!")
     fimse
 fimalgoritmo

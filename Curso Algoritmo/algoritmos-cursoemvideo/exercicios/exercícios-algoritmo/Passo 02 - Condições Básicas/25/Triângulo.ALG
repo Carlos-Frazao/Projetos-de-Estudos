@@ -1,4 +1,4 @@
-algoritmo "triângulo"
+algoritmo "Triângulo"
 var
     r1, r2, r3: inteiro
 inicio

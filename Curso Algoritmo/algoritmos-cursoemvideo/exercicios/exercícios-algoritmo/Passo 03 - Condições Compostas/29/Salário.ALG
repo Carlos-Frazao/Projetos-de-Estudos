@@ -10,11 +10,19 @@ inicio
 
     // Reajuste do salário, referente as condições impostas.
     se anos >= 10 entao 
-        // Aumento de 20%, mais de 10 anos
+        // Aumento de 20%, mais de 10 anos.
         r_salario <- (salario * 20) / 100
-        escreval(r_salario)
         escreva("Seu salário com um reajuste de 20% fica no valor de ", salario + r_salario)
-        // replicar isso no resto das condições... Programa não finalizado!
+    senao
+        se (anos > 3) e (anos < 10) entao 
+            // Aumento de 12.5%, mais de 3 anos e menos de 10 anos.
+            r_salario <- (salario * 12.5) / 100
+            escreva("Seu salário com um reajuste de 12.5% fica no valor de ", salario + r_salario)
+        senao
+            // Aumento de 3%, menos de 3 anos.
+            r_salario <- (salario * 3) / 100
+            escreva("Seu salário com um reajuste de 3% fica no valor de ", salario + r_salario)
+        fimse
     fimse
 fimalgoritmo
 // 29) Desenvolva um programa que leia o nome de um funcionário, seu salário, 

@@ -20,3 +20,4 @@ inicio
          Escreva("Voce nao esta na faixa de peso ideal")
       FimSe
 fimalgoritmo
+// Gustavo Guanabara.

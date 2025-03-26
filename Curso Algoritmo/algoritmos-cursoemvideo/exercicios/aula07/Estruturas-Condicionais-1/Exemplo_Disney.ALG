@@ -1,4 +1,4 @@
-algoritmo "Ex_Disney"
+algoritmo "Exemplo_Disney"
 var
     dinheiro: real  
 inicio

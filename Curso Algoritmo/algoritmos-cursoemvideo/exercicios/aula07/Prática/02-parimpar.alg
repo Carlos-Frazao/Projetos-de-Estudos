@@ -16,3 +16,4 @@ senao
    EscrevaL("O numero ", N, " e IMPAR")
 FimSe
 fimalgoritmo
+// Gustavo Guanabara.

@@ -6,10 +6,10 @@ inicio
     se dinheiro >= 10000 entao 
         escreva("Vou visitar a Disney.")
     senao
-        se dinheiro >= 2000 e dinheiro <= 5000 entao 
+        se (dinheiro >= 5000) e (dinheiro < 10000) entao 
             escreva("Vou visitar minha cidade natal.")
         senao
-        escreva("tô liso, vou ficar em casa.")
+        escreva("Vou ficar em casa msm.")
         fimse
     fimse
 fimalgoritmo

@@ -61,5 +61,6 @@ inicio
     // Se o jogador informou incorretamente. 
     escreva("Opção inválida!")
     fimse
+// Fazer manutenção.
 fimalgoritmo
 // 31) [DESAFIO] Crie um jogo de JoKenPo (Pedra-Papel-Tesoura)

@@ -16,10 +16,17 @@ inicio
         escreval("SITUAÇÃO: APROVADO.")
         escreval("---------------------")
     senao
-        escreval("---------------------")
-        escreval("MÉDIA: ",m:1:1)
-        escreval("SITUAÇÃO: REPROVADO!")
-        escreval("---------------------")
+        se m > 5.0 e m < 7.0 entao
+            escreval("---------------------")
+            escreval("MÉDIA: ",m:1:1)
+            escreval("SITUAÇÃO: RECUPERAÇÃO.")
+            escreval("---------------------")
+        senao
+            escreval("---------------------")
+            escreval("MÉDIA: ",m:1:1)
+            escreval("SITUAÇÃO: REPROVADO.")
+            escreval("---------------------")
+        fimse
     fimse
 fimalgoritmo
 // Exercicio 02:

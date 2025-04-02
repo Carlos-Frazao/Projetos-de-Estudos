@@ -4,7 +4,7 @@ var
    Sal, NSal : Real
    Dep : Inteiro
 inicio
-      Escreva ("Qual o nome do Funcionario? ")
+      Escreva ("Qual o nome do Funcionário? ")
       Leia (Nome)
       Escreva ("Qual o salario do Funcionario? R$")
       Leia (Sal)

@@ -3,4 +3,5 @@ var
 
 inicio
 // Teste
+// Teste
 fimalgoritmo

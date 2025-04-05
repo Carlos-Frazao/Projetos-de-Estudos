@@ -31,10 +31,20 @@ inicio
                 fimse
             fimse
 
-        // Homem. FALTA FAZER PARA O SEXO MASCULINO...
+        // Homem.
         senao
-            se
-
+            se (anos < 20) entao 
+                salarioR <- (salario * 3) / 100
+                escreva("Você tem ",anos, " anos de empresa, e recebeu um aumento de 3%. Salário com reajuste ",salario + salarioR)
+            senao 
+                se (anos >= 20) e (anos < 30) entao 
+                    salarioR <- (salario * 13) / 100
+                    escreva("Você tem ",anos, " anos de empresa, e recebeu um aumento de 13%. Salário com reajuste ",salario + salarioR)
+                senao
+                    salarioR <- (salario * 25) / 100
+                    escreva("Você tem ",anos, " anos de empresa, e recebeu um aumento de 25%. Salário com reajuste ",salario + salarioR)
+                fimse
+            fimse
         fimse
     senao
         escreva("Sexo inválido!")

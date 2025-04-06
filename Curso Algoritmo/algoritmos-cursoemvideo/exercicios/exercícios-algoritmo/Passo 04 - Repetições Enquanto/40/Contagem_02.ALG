@@ -2,11 +2,9 @@ algoritmo "Contagem"
 var
     cont: inteiro
 inicio
-    cont <- 0
-    enquanto cont < 19 faca
+    para cont de 0 ate 18 passo 3 faca
         escreva(cont," ")
-        cont <- cont + 3
-    fimenquanto
+    fimpara
     escreva("Acabou!")
 fimalgoritmo
 // 40) Crie um aplicativo que mostre na tela a seguinte contagem: 

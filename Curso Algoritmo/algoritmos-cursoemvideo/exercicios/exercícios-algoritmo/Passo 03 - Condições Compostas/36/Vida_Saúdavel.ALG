@@ -2,7 +2,7 @@ algoritmo "Vida_Saudavel"
 var
 
 inicio
-
+    // Teste
 fimalgoritmo
 // 36) Um programa de vida saudável quer dar pontos atividades físicas que podem 
 //  ser trocados por dinheiro. O sistema funciona assim: 

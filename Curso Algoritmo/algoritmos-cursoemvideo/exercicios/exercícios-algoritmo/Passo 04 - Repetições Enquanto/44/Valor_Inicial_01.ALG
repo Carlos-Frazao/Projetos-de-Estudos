@@ -9,9 +9,10 @@ inicio
     escreva("Digite o incremento/salto: ")
     leia(incremento)
 
-    cont <- inicial
     escreva("Contagem: ")
-    enquanto cont < ultimo_valor faca
+
+    cont <- inicial
+    enquanto cont < ultimo_valor fac
         escreva(cont," ")
         cont <- cont + incremento
     fimenquanto

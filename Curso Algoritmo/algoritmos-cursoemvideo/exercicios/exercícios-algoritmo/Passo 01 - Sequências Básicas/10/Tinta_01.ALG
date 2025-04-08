@@ -6,11 +6,19 @@ inicio
     leia(larg)
     Escreva("Informe a Altura da parede: ")
     leia(alt)
+
     area <- larg * alt 
+    
     //Cada litro de tinta pinta uma área de 2 metros quadrados.
     litro_tint <- area / 2
+    
     escreva("São necessário ",litro_tint, " litros de tinta para pintar uma área de ",area, " Metros quadrados.")
 fimalgoritmo
+
+// Fazendo o calculo a armazenando nas variáveis.
+
 // 10) Faça um algoritmo que leia a largura e altura de uma parede, calcule e 
 // mostre a área a ser pintada e a quantidade de tinta necessária para o serviço, 
-// sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
+// sabendo que cada litro de tinta pinta uma área de 2 metros quadrados.
+
+// Correção: Certo.

@@ -28,6 +28,9 @@ inicio
     mm <- dist * 1000
     escreva(mm," Milímetro (Mm)")
 fimalgoritmo
+
+// Programa feito utilizando variável para fazer os calculos.
+
 // 8) Desenvolva um programa que leia uma distância em metros e mostre os valores 
 // relativos em outras medidas. 
 // Ex:  
@@ -39,3 +42,5 @@ fimalgoritmo
 // 1857.2dm 
 // 18572.0cm 
 // 185720.0mm 
+
+// Correção: Certo

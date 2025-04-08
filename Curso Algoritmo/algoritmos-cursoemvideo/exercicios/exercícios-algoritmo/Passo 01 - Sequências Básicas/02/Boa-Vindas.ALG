@@ -11,3 +11,5 @@ fimalgoritmo
 // Ex: 
 // Qual é o seu nome? João da Silva 
 // Olá João da Silva, é um prazer te conhecer!
+
+// Correção: Correto.

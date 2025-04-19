@@ -7,6 +7,12 @@ inicio
     escreva("Quantos anos que você fuma? ")
     leia(anos_fumado)
 
+    // se cigarros > 0 e cigarros < 7 entao
+
+    minutos_vida <- cigarros * 10
+
+    escreva(minutos_vida)
+
 fimalgoritmo
 // 16) [DESAFIO] Escreva um programa para calcular a redução do tempo de vida de um 
 // fumante. Pergunte a quantidade de cigarros fumados por dias e quantos anos ele 

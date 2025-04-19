@@ -6,7 +6,11 @@ inicio
     leia(velo_carro)
     se velo_carro > 80 entao 
         multa <- (velo_carro - 80) * 5
-        escreva("Você foi multado em R$",multa)
+        escreval("Você foi multado!")
+        escreval("Velocidade excedida: ",velo_carro - 80," Km/h")
+        escreva("Valor da multa: R$",multa)
+    senao
+        escreva("Velocidade dentro do limite. Dirija com segurança!")
     fimse
 fimalgoritmo
 // 17) Escreva um programa que pergunte a velocidade de um carro. Caso ultrapasse 

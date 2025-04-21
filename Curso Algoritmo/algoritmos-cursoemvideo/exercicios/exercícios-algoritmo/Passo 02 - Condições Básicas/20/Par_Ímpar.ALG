@@ -1,6 +1,6 @@
 algoritmo "Par_Ímpar"
 var
-    n, par: real
+    n: real
 inicio
     escreva("Informe um valor, onde será analisado se é Par ou Ímpar: ")
     leia(n)
@@ -12,3 +12,5 @@ inicio
 fimalgoritmo
 // 20) Desenvolva um programa que leia um número inteiro e mostre se ele é PAR ou 
 // ÍMPAR.
+
+// Correção: Correto.

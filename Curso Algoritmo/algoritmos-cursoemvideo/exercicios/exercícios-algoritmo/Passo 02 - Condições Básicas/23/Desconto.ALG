@@ -10,15 +10,13 @@ inicio
     escreva("Informe o valor da compra: ")
     leia(compra)
 
-    se sexo = "m" e "f" entao 
+    se sexo = "m" ou "f" entao 
         se sexo = "m" entao
             desc <- compra * (5 / 100)
             escreva("O valor da compra do ", nome, ", com 5% desconto é ", compra - desc)
         senao
-            se sexo = "f" entao
-                desc <- compra * (13 / 100)
-                escreva("O valor da compra da ", nome, ", com 13% desconto é ", compra - desc)
-            fimse
+            desc <- compra * (13 / 100)
+            escreva("O valor da compra da ", nome, ", com 13% desconto é ", compra - desc)
         fimse
     senao
         escreva("Opção inválida!")
@@ -30,3 +28,5 @@ fimalgoritmo
 // que: 
 // - Homens ganham 5% de desconto 
 // - Mulheres ganham 13% de desconto
+
+// Correção: Certo

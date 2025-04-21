@@ -8,11 +8,11 @@ inicio
     leia(ano_atual)
 
     idade <- ano_atual - ano_nasc
-    escreval(idade)
+    escreval("Idade: ",idade)
     se idade < 18 entao 
         escreva("Faltam ",18 - idade, " anos, para você se alistar.")
     senao
-        escreva("Já se passaram ",idade -18, " anos, que você se alistou.")
+        escreva("Já se passaram ",idade - 18, " anos, que você se alistou.")
     fimse
 fimalgoritmo
 // 22) Escreva um programa que leia o ano de nascimento de um rapaz e mostre a sua 
@@ -21,3 +21,5 @@ fimalgoritmo
 // alistamento. 
 //   - Se já tiver depois dos 18 anos, mostre quantos anos já se passaram do 
 // alistamento.
+
+// Coreção: Certo.

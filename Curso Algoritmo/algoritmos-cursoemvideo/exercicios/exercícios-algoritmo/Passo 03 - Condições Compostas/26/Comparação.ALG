@@ -22,3 +22,5 @@ fimalgoritmo
 // - O primeiro valor é o maior 
 // - O segundo valor é o maior 
 // - Não existe valor maior, os dois são iguais
+
+// Correção: 

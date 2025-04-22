@@ -25,3 +25,4 @@ fimalgoritmo
 // dela e depois mostre se ela pode ou não votar.
 
 // Correção: Correto.
+// Teste

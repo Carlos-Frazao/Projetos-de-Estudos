@@ -24,3 +24,5 @@ fimalgoritmo
 // - Média até 4.9: REPROVADO 
 // - Média entre 5.0 e 6.9: RECUPERAÇÃO 
 // - Média 7.0 ou superior: APROVADO
+
+// Correção: Certo.

@@ -27,3 +27,5 @@ fimalgoritmo
 // - Abaixo de 100m² = TERRENO POPULAR 
 // - Entre 100m² e 500m² = TERRENO MASTER 
 // - Acima de 500m² = TERRENO VIP
+
+// Correção: Certo.

@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "Comparação"
 var
     a, b, c: inteiro
 inicio

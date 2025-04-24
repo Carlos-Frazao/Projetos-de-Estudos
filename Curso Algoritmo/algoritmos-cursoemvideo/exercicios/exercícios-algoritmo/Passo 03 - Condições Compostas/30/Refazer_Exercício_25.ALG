@@ -33,3 +33,5 @@ fimalgoritmo
 // - EQUILÁTERO: todos os lados iguais 
 // - ISÓSCELES: dois lados iguais 
 // - ESCALENO: todos os lados diferentes
+
+// Correção: Correto.

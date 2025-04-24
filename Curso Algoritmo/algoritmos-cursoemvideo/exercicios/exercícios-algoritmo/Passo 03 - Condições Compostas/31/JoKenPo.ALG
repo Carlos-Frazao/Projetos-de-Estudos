@@ -64,3 +64,5 @@ inicio
 // Fazer manutenção.
 fimalgoritmo
 // 31) [DESAFIO] Crie um jogo de JoKenPo (Pedra-Papel-Tesoura)
+
+// Correção: Certo.

@@ -15,3 +15,5 @@ fimalgoritmo
 // considerando que haverá 20% de juros e vai poder parcelas.
 // para isso ela vai perguntar o valor do empréstimo e o número de parcelas.
 // o juros é calculado em cima do valor total do empréstimo.
+
+// Correção: Certo.

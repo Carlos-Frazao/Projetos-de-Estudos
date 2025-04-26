@@ -9,3 +9,4 @@ inicio
         escreva("Nao vai para a Disney")
     fimse
 fimalgoritmo
+// Teste

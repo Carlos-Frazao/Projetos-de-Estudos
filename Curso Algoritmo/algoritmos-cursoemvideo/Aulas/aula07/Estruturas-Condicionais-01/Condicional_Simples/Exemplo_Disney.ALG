@@ -10,3 +10,4 @@ inicio
     fimse
 fimalgoritmo
 // Teste
+// Teste

@@ -1,0 +1,2 @@
+Indentação automática <- control + G
+criar a base do algoritmo <- ! + control + espaço

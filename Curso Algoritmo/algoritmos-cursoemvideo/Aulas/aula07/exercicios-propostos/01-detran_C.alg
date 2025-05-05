@@ -24,3 +24,6 @@ inicio
 fimalgoritmo
 // Exercicio 01:
 // Está apto a dirigir?
+
+
+// Teste

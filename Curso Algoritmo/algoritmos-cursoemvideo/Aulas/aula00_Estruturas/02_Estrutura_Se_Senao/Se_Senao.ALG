@@ -2,10 +2,10 @@ algoritmo "Se_Senao"
 var
 
 inicio
-    // Se o bloco1 for verdadeiro, o bloco2 não será executado.
+    // Se o bloco A for verdadeiro, o bloco B não será executado.
     se (Verdadeiro) entao 
         bloco A
-    // Se o blocoA for falso, o blocoB será executado.
+    // Se o bloco A for falso, o bloco B será executado.
     senao
         bloco B
 fimalgoritmo

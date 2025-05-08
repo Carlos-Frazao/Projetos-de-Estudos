@@ -13,7 +13,7 @@ inicio
       Escreva("Altura (m): ")
       Leia(A)
       IMC <- M / (A ^ 2)
-      EscrevaL("IMC: ", IMC:5:2)
+      EscrevaL("IMC: ",IMC:5:2)
       se (imc < 17) entao
         escreva("Muito abaixo do peso")
       senao
@@ -42,3 +42,4 @@ inicio
         fimse
       fimse
 fimalgoritmo
+//Gustavo Guanabara

@@ -23,3 +23,4 @@ inicio
       EscrevaL ("O novo salario de ", Nome, " sera de R$", NSal:5:2)
 fimalgoritmo
 //Teste
+//Teste

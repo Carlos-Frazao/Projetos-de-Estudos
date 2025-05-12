@@ -14,7 +14,7 @@ inicio
     // Verificando condições.
     se (m >= 9.0) entao 
         escreva("Clasificação A, nota: ",m:1:1)
-        senao
+    senao
             se (m >= 8.0) e (m <= 8.9) entao 
                 escreva("Classificação B, nota: ",m:1:1)
             senao

@@ -20,7 +20,5 @@ inicio
               OutroCaso
                    NSal <- Sal + (Sal*18/100)
       FimEscolha
-      EscrevaL ("O novo salario de ", Nome, " sera de R$", NSal:5:2)
+      EscrevaL ("O novo salario de ", Nome, " será de R$", NSal:5:2)
 fimalgoritmo
-//Teste
-//Teste

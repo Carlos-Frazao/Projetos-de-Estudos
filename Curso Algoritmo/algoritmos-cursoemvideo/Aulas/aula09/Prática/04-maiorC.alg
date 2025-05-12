@@ -1,7 +1,7 @@
 algoritmo "SomaNúmeros"
 var
     // Declarando variáveis.
-    Cont, n, s, maior: inteiro
+    Cont, n, s, maior,  menor: inteiro
 inicio
     escreval("Informe 10 números, onde será exibido a soma: ")
     cont <- 0
@@ -14,8 +14,12 @@ inicio
         // Verificando o número maior.
         se (n > maior) entao 
             maior <- n 
+        senao
+            // Verificando o número menor.
+            se (n > menor) entao
+                menor <- n
+            fimse
         fimse
-
         // Fazendo a soma.
         s <- s + n
 

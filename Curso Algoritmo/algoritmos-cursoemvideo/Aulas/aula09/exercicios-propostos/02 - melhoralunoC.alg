@@ -20,7 +20,7 @@ inicio
         escreva("O melhor aprroveitamento foi de")
         c <- c + 1
     fimenquanto
-        
+        //Teste
 
 
 fimalgoritmo

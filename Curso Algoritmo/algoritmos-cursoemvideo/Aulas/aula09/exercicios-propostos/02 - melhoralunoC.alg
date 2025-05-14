@@ -21,6 +21,7 @@ inicio
         c <- c + 1
     fimenquanto
         //Teste
+        //Teste
 
 
 fimalgoritmo

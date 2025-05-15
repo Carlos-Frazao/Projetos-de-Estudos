@@ -17,11 +17,12 @@ inicio
         leia(nome)
         escreva("Nota de ", nome, ": ")
         leia(nota)
-        escreva("O melhor aprroveitamento foi de")
+        se nota > nota entao 
+            nota <- nota
+            nome <- nome
+        fimse
         c <- c + 1
     fimenquanto
-        //Teste
-        //Teste
-        //Teste
-
+    escreval("-----------------------")
+    escreva("O melhor aprroveitamento foi de ",nome, " com ", nota:5:2)
 fimalgoritmo

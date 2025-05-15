@@ -22,6 +22,6 @@ inicio
     fimenquanto
         //Teste
         //Teste
-
+        //Teste
 
 fimalgoritmo

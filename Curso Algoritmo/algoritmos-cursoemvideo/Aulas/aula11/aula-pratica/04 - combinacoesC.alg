@@ -18,6 +18,3 @@ inicio
         //escreval(p_valor+1, " : ", c)
     fimpara
 fimalgoritmo
-//teste
-//teste
-//Teste

@@ -1,22 +1,18 @@
 algoritmo "DetectorPesado"
-// =============================================================
-// Algoritmo para detectar qual e a pessoa mais pesada, utilizando
-// rotinas em algoritmos.
-//
-// AUTOR: Gustavo Guanabara
-// Curso COMPLETO disponivel GRATIS no site www.cursoemvideo.com
-// =============================================================
 var
   I: Inteiro
   N, Pesado: Caractere
   P, Mai: Real
+Procedimento Topo()
 inicio
-  LimpaTela
-  EscrevaL("------------------------------------")
-  EscrevaL(" D E T E C T O R   DE   P E S A D O ")
-  EscrevaL(" Maior Peso ate agora: ", Mai, "Kg")
-  EscrevaL("------------------------------------")
-  Teste()
+    LimpaTela
+    EscrevaL("------------------------------------")
+    EscrevaL(" D E T E C T O R   DE   P E S A D O ")
+    EscrevaL(" Maior Peso ate agora: ", Mai, "Kg")
+    EscrevaL("------------------------------------")
+FimProcedimento
+inicio
+  Topo()
   Para I <- 1 ate 5 faca
      Escreva("Digite o nome: ")
      Leia(N)
@@ -25,16 +21,8 @@ inicio
         MAI <- P
         Pesado <- N
      FimSe
-     LimpaTela
-     EscrevaL("------------------------------------")
-     EscrevaL(" D E T E C T O R   DE   P E S A D O ")
-     EscrevaL(" Maior Peso ate agora: ", Mai, "Kg")
-     EscrevaL("------------------------------------")
+      Topo()
   FimPara
-  LimpaTela
-  EscrevaL("------------------------------------")
-  EscrevaL(" D E T E C T O R   DE   P E S A D O ")
-  EscrevaL(" Maior Peso ate agora: ", Mai, "Kg")
-  EscrevaL("------------------------------------")
-  EscrevaL("A pessoa mais pesada foi ", Pesado, ", com ", Mai, " quilos.")
+  Topo()
+  escrevaL("O mais pesado é ", Pesado, " com ", Mai, "Kg")
 fimalgoritmo

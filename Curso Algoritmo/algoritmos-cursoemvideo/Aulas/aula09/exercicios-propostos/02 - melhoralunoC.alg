@@ -30,3 +30,4 @@ inicio
     escreval("-----------------------")
     escreva("O melhor aprroveitamento foi de ",nome, " com ", nota:0:2)
 fimalgoritmo
+//Teste

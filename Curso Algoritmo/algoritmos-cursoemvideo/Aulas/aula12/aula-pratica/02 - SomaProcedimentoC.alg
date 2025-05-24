@@ -5,7 +5,7 @@ procedimento soma(a, b: inteiro)
 inicio
       escreval("Recebi o valor ", a)
       escreval("Recebi o valor ", b)
-      escreva("A soma vale ", a+b)
+      escreva("A soma vale ", a + b)
 fimprocedimento
 Inicio
     x <- 5

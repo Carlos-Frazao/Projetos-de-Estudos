@@ -1,6 +1,6 @@
 algoritmo "SomaFuncao"
 var
-    n1, n2, s, resp: inteiro 
+    n1, n2, s: inteiro 
 
 funcao soma(a, b: inteiro): inteiro
 inicio

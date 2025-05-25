@@ -1,10 +1,12 @@
 algoritmo "SomaFuncao"
 var
     n1, n2, s, resp: inteiro 
+
 funcao soma(a, b: inteiro): inteiro
 inicio
     retorne a + b
 fimfuncao
+
 inicio
     escreva("Informa o primeiro valor: ")
     leia(n1)

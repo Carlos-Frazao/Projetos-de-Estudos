@@ -1,14 +1,16 @@
 algoritmo "Fibonacci"
 var
     c, t1, t2, t3: inteiro
-    funcao proximo_fibonacci(var a, b: inteiro): inteiro
-    var c: inteiro 
-    inicio 
-        c <- a + b
-        a <- b
-        b <- c
-        retorne c
-    fimfuncao
+
+funcao proximo_fibonacci(var a, b: inteiro): inteiro
+var c: inteiro 
+inicio 
+    c <- a + b
+    a <- b
+    b <- c
+    retorne c
+fimfuncao
+
 inicio
     t1 <- 0
     escreva(t1)

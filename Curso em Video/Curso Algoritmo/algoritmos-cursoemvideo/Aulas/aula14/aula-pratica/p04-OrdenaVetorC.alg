@@ -10,7 +10,7 @@ inicio
 
     para i de 1 ate 3 faca 
         para j de i+1 ate 4 faca 
-            se (vet[1] > vet[j]) entao 
+            se (vet[i] > vet[j]) entao 
                 aux <- vet[i]
                 vet[i] <- vet[j]
                 vet[j] <- aux

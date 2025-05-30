@@ -22,4 +22,3 @@ inicio
         fimse
     fimpara
 fimalgoritmo
-//Teste

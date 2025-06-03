@@ -1,36 +1,36 @@
 algoritmo "Corrige_Provas"
 var
-    gabarito: vetor[1..5] de caractere
-    resp_dada: vetor[1..5] de caractere
-    nome: vetor[1..10] de caractere
-    c: inteiro
+    gabarito, resp_dada: vetor[1..5] de caractere
+    nome: vetor[1..2] de caractere
     nota: vetor[1..5] de inteiro
-
-    // Funcao para imprimir pontinhos.
-    funcao pontinhos(): caractere
+    c: inteiro
+    
+    //Procedimento gabarito.
+    procedimento gabarito()
+    var
+        c: inteiro
     inicio
-        retorne "-------------------------------"
-    fimfuncao
-//Inicio do programa.
-inicio
-    nota[1] <- 0
-    escreval("PASSO 1 - Cadastro de Gabarito.")
-    escreval(pontinhos())
+       escreval("PASSO 1 - Cadastro do Gabarito.")
+       escreval("-------------------------------")
+            para c de 1 ate 5 faca
+                escreva("Questão ",c, ": ")
+               leia(gabarito[c])
+            fimpara
+    fimprocedimento
 
-    // Fazendo o cadastro do gabarito da prova.
-    para c de 1 ate 5 faca
-        escreva("Questão ", c, ": ")
-        leia(gabarito[c])
-    fimpara
+    //Função cadastrar prova.
+    
+
+//Inicio do programa principal.
+inicio
+    gabarito()
 
     limpatela
 
-    // Cadastrar a prova dos alunos.
+    //Cadastrar a prova dos alunos.
+    escreval("CADASTRO GABARITO CONCLUIDO!")
     para c de 1 ate 5 faca
-    escreval("CADASTRO GABARITO COMCLUIDO!")
-    escreval(pontinhos())
     escreval("ALUNO ", c, " - CADASTRO DE PROVA")
-    escreval(pontinhos())
     escreva("Qual o nome do aluno: ")
     leia(nome[c])
     escreval("RESPOSTAS DADAS NA PROVA: ")
@@ -39,14 +39,13 @@ inicio
             // Lendo as respostas dadas pelos alunos.
             leia(resp_dada[c])
         fimpara
-        para c de 1 ate 5 faca 
-            se (resp_dada[c] = gabarito[c]) entao
-                nota[c] <- nota[c] + 2
-            senao
-                nota[c] <- nota[c] + 0
-            fimse
-        fimpara 
     fimpara
+    para c de 1 ate 5 faca
+            se (resp_dada[c] = gabarito[c]) entao
+                nota <- nota + 2
+            fimse
+        fimpara
+        
     limpatela
 
     // Saida de dados.
@@ -56,7 +55,7 @@ inicio
     escreval("NOTAS DOS ALUNOS")
     escreval(pontinhos())
     para c de 1 ate 5 faca
-        escreval("Aluno: ", nome[c], " - Nota: ", nota[c])
+        escreval("Aluno ",c, " : ",c," ", nome[c], " - Nota: ", nota[c])
         // Resetando a nota para 0.
         nota[c] <- 0
     fimpara

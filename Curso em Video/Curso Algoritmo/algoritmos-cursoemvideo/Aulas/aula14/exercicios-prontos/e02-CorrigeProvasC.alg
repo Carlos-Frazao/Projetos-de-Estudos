@@ -1,68 +1,62 @@
-algoritmo "Corrige_Provas"
+algoritmo "CorrigeProvas"
 var
-    gabarito, resp_dada: vetor[1..5] de caractere
-    nome: vetor[1..2] de caractere
-    nota: vetor[1..5] de inteiro
-    c: inteiro
-    
-    //Procedimento gabarito.
-    procedimento gabarito()
-    var
-        c: inteiro
-    inicio
-       escreval("PASSO 1 - Cadastro do Gabarito.")
-       escreval("-------------------------------")
-            para c de 1 ate 5 faca
-                escreva("Questão ",c, ": ")
-               leia(gabarito[c])
-            fimpara
-    fimprocedimento
-
-    //Função cadastrar prova.
-    
-
-//Inicio do programa principal.
+   gab: vetor[1..5] de Caractere
+   prova: vetor[1..5] de Caractere
+   nome: vetor[1..3] de Caractere
+   nota: vetor[1..3] de Real
+   a: Inteiro
+   s, m: Real
+   
+Procedimento CadastroGabarito()
+var
+   c: Inteiro
 inicio
-    gabarito()
+   EscrevaL("PASSO 1 - Cadastro de Gabarito ")
+   EscrevaL("-------------------------------")
+   Para c <- 1 ate 5 faca
+      Escreva("Questao ", c, ": ")
+      Leia(gab[c])
+   FimPara
+FimProcedimento
 
-    limpatela
+Funcao CadastraProva(): Real
+var
+   c: Inteiro
+   notaFinal: Real
+inicio
+    notaFinal <- 0
+    EscrevaL("RESPOSTAS DADAS")
+    Para c <- 1 ate 5 faca
+      Escreva("Questao ", c, ": ")
+      Leia(prova[c])
+      Se (Maiusc(prova[c]) = Maiusc(gab[c])) entao
+         notaFinal <- notaFinal + 2
+      FimSe
+   FimPara
+   Retorne notaFinal
+FimFuncao
 
-    //Cadastrar a prova dos alunos.
-    escreval("CADASTRO GABARITO CONCLUIDO!")
-    para c de 1 ate 5 faca
-    escreval("ALUNO ", c, " - CADASTRO DE PROVA")
-    escreva("Qual o nome do aluno: ")
-    leia(nome[c])
-    escreval("RESPOSTAS DADAS NA PROVA: ")
-        para c de 1 ate 5 faca
-            escreva("Questão ", c, ": ")
-            // Lendo as respostas dadas pelos alunos.
-            leia(resp_dada[c])
-        fimpara
-    fimpara
-    para c de 1 ate 5 faca
-            se (resp_dada[c] = gabarito[c]) entao
-                nota <- nota + 2
-            fimse
-        fimpara
-        
-    limpatela
+inicio
+    CadastroGabarito()
+    
+    Para a <- 1 ate 3 faca
+         LimpaTela
+         EscrevaL("------------------------")
+         EscrevaL("ALUNO ", a)
+         EscrevaL("------------------------")
+         Escreva("Nome: ")
+         Leia(nome[a])
+         nota[a] <- CadastraProva()
+         s <- s + nota[a]
+    FimPara
 
-    // Saida de dados.
-    escreval(pontinhos())
-    escreval("RESULTADO DA CORREÇÃO!")
-    escreval(pontinhos())
-    escreval("NOTAS DOS ALUNOS")
-    escreval(pontinhos())
-    para c de 1 ate 5 faca
-        escreval("Aluno ",c, " : ",c," ", nome[c], " - Nota: ", nota[c])
-        // Resetando a nota para 0.
-        nota[c] <- 0
-    fimpara
-
-    // Testes.
-    para c de 1 ate 5 faca
-    escreval("Gabarito: ",gabarito[c])
-    escreval("Nomes, vetor: ", nome[c])
-    fimpara
+    LimpaTela
+    EscrevaL("NOTAS FINAIS ")
+    EscrevaL("-----------------------------")
+    Para a <- 1 ate 3 faca
+       EscrevaL(nome[a]:10, nota[a]:4:1)
+    FimPara
+    m <- s / 3
+    EscrevaL("-----------------------------")
+    EscrevaL("Media da Turma: ", M:4:1)
 fimalgoritmo

@@ -13,11 +13,12 @@ inicio
         se idade > 18 entao 
             mais_18 <- mais_18 + 1
         senao   se idade < 5 entao 
-                    menos_5 <- menos_5 + 1 
-                senao   se idade > maior_idade entao 
-                            maior_idade <- idade
-                        fimse
-                fimse
+                    menos_5 <- menos_5 + 1
+                fimse 
+        fimse
+        
+        se idade > maior_idade entao 
+            maior_idade <- idade
         fimse
     fimpara
 

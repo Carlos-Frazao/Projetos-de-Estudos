@@ -30,7 +30,7 @@ inicio
     escreval("Foram cadastrados ",cadastro_mulher, " mulheres.")
     escreval("A média de idade do grupo é, ",soma_grupo/5)
 
-    //Parei aqui... Estava trabalhando na média de idade dos homens!
+    //Parei aqui... Estava trabalhando na média de idade dos homens!!!
 
     escreval("A média de idade dos homens é, ",media_homen)
 fimalgoritmo

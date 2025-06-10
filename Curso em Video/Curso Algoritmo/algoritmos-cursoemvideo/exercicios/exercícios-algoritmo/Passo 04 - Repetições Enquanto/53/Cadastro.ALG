@@ -1,42 +1,38 @@
 algoritmo "Cadastro"
 var
-    c, idade, h, m, s, s_h, soma_homen: inteiro 
-    sexo, h: caractere
-    media: real
+    c, idade, cadastro_homen, cadastro_mulher, soma_grupo: inteiro
+    sexo: caractere
 inicio
-    h <- 0 //Homen
-    m <- 0 //Mulher
-    s <- 0 //Soma idade, para tirar a média.
-    s_h <- 0 //Vou tirar a média de idade dos homens.
-    idade_20_mulher <- 0
-    soma_homen <- 0
+    cadastro_homen <- 0
+    cadastro_mulher <- 0
+    soma_grupo <- 0
 
+    //Entrada de dados.
     para c de 1 ate 5 faca 
-        escreva(c,"º Pessoa: Informe sua idade: ")
+        escreva("Informe a idade da ",c, "º pessoa: ")
         leia(idade)
-        s <- idade + s
-        escreva(c,"º Pessoa: Qual seu sexo (M/F): ")
+        soma_grupo <- idade + soma
+        escreva("Informe o sexo da ",c, "º pessoa (M/F): ")
         leia(sexo)
-        se sexo = "M" entao
-            soma_homen <- soma_homen + 1
-            s_h <- idade + s_h
-            h <- h + 1
-        senao
-            m <- m + 1
-        fimse 
-        se sexo = "F" entao 
-            se idade > 20 entao 
-                idade_20_mulher <- idade_20_mulher + 1
-            fimse
+
+        //Verificações.
+        se sexo = "M" entao 
+            cadastro_homen <- cadastro_homen + 1
+            media_homen <- idade/cadastro_homen
+        senao   se sexo = "F" entao 
+                    cadastro_mulher <- cadastro_mulher + 1
+                fimse
         fimse
     fimpara
 
     //Saída de dados.
-    escreval(h," Homens foram cadastrados.")
-    escreval(m," Mulheres foram cadastradas.")
-    escreval("A média de idade do grupo informado é: ", s/5)
-    escreval("A média de idade dos Homens é: ",s_h/soma_homen)
-    escreva(idade_20_mulher, " Melheres tem mais de 20 anos.")
+    escreval("Foram cadastrados ",cadastro_homen, " homens.")
+    escreval("Foram cadastrados ",cadastro_mulher, " mulheres.")
+    escreval("A média de idade do grupo é, ",soma_grupo/5)
+
+    //Parei aqui... Estava trabalhando na média de idade dos homens!
+
+    escreval("A média de idade dos homens é, ",media_homen)
 fimalgoritmo
 //53) Faça um programa que leia a idade e o sexo de 5 pessoas, mostrando no final: 
 // a) Quantos homens foram cadastrados 

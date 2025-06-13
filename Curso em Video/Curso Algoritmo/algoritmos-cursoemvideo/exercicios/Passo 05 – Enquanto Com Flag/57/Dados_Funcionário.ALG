@@ -8,3 +8,4 @@ fimalgoritmo
 //mulheres. O programa vai perguntar ao usuário se ele quer continuar ou não 
 //sempre que ler os dados de um funcionário.
 //Teste
+//Teste

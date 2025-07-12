@@ -9,5 +9,4 @@ inicio
     escreval("Me livrei da maldição do 'Olá, Mundo!'") // Exibe uma mensagem adicional na tela.
     escreva("Hello, friends!")
 fimalgoritmo
-
 // Essa é uma maneira de fazer usando variáveis, para armazenar a mensagem, "Olá, Mundo!".

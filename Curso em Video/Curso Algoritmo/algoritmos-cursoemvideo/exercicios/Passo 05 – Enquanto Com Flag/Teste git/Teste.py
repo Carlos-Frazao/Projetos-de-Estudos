@@ -4,3 +4,4 @@ print("Deu certo?")
 #Sim
 #Ainda bem que voltou a funcionar
 #...
+#.

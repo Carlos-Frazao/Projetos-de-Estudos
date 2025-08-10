@@ -9,8 +9,7 @@ inicio
       escreva("Digite outro n�mero: ")
       leia(n2)
       soma <- (n1 + n2)
-      escreva("A soma entre ", n1," e ", n2," � igual á ",soma)
+      escreva("A soma entre ", n1," e ", n2," � igual á: ",soma)
 fimalgoritmo
-
 // Utilizando a variável soma para armazenar o resultado da soma entre n1 e n2,
 // e depois exibindo o resultado na tela.

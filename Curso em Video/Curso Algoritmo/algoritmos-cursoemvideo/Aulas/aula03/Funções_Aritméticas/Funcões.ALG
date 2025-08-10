@@ -26,6 +26,6 @@ inicio
    // Tan.
     escreval("A tangente de 30 é: ", tan(0.523))
 
-   //GrauPRad
+   //GrauPRad.
    escreval("O valor de 30 graus em radianos é: ", grauprad(30))
 fimalgoritmo

@@ -1,7 +1,6 @@
 algoritmo "Seu_Nome"
 var
    nome: caractere
-
 inicio
     escreva("Qual seu nome? ")
     // Entrada de dados do usuário.

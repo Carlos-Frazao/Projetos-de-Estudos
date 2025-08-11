@@ -8,3 +8,4 @@ print("Deu certo?")
 #,
 #Notebook
 #Git clone no notebook com debian de sistema...
+#Acabei de fazer login no git bash

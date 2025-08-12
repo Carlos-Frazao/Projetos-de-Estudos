@@ -7,3 +7,4 @@ print("Deu certo?")
 #.
 #,
 #Notebook
+#Teste terça

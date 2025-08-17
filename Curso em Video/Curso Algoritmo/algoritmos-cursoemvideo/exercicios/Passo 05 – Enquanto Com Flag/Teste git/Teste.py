@@ -9,5 +9,6 @@ print("Deu certo?")
 #Notebook
 #...
 #.....
-Sexta
-Sabado
+#Sexta
+#Sabado
+#Domingo 17

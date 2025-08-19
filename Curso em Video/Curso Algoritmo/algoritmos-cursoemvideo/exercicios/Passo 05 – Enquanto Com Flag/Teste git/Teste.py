@@ -12,3 +12,4 @@ print("Deu certo?")
 #Sexta
 #Sabado
 #Domingo 17
+#Segunda 18

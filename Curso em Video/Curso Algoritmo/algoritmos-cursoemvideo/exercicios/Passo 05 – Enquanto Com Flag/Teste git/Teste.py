@@ -14,4 +14,5 @@ print("Deu certo?")
 #Domingo 17
 #Segunda 18
 #Segunda
-#hj 
+#hj
+#Quinta

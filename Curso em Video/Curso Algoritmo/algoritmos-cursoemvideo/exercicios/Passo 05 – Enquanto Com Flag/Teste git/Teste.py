@@ -16,3 +16,4 @@ print("Deu certo?")
 #Segunda
 #hj
 #Quinta
+#Sexta

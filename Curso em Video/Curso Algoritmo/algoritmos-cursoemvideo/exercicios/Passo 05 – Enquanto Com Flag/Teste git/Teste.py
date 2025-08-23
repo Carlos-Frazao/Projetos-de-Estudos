@@ -17,3 +17,4 @@ print("Deu certo?")
 #hj
 #Quinta
 #Sexta
+#mais um Sabado virado estudando

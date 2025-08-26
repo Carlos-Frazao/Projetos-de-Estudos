@@ -1,6 +1,6 @@
 algoritmo "Contador de 0 a 10"
 var
-    // Declarando o contador com inteiro.
+    // Declarando o contador como inteiro.
     contador: inteiro
 inicio
     // Inicializando o contador com 0

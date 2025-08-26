@@ -18,3 +18,4 @@ print("Deu certo?")
 #Quinta
 #Sexta
 #mais um Sabado virado estudando...
+#Segunda 

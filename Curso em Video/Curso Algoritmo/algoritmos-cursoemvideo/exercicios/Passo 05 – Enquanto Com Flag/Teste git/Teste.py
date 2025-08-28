@@ -20,3 +20,4 @@ print("Deu certo?")
 #mais um Sabado virado estudando...
 #Segunda 
 #Quarta
+#Quinta f aula

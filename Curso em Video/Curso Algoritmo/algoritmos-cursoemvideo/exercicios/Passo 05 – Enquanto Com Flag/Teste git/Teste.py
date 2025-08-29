@@ -21,3 +21,4 @@ print("Deu certo?")
 #Segunda 
 #Quarta
 #Quinta f aula
+#Sexta

@@ -23,3 +23,4 @@ print("Deu certo?")
 #Quinta f aula
 #Sexta
 #Sabado de madrugada
+#Domingo

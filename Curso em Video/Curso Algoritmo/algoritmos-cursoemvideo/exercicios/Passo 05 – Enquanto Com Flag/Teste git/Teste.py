@@ -24,3 +24,4 @@ print("Deu certo?")
 #Sexta
 #Sabado de madrugada
 #Domingo
+#Segunda madrugada

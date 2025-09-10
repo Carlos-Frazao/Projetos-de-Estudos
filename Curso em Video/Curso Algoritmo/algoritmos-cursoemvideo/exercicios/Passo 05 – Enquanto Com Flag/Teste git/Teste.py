@@ -27,3 +27,4 @@ print("Deu certo?")
 #Segunda madrugada
 #Sexta 
 #Sabado
+#Terça 

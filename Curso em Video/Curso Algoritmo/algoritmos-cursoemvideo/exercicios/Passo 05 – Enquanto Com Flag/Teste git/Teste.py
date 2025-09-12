@@ -29,4 +29,5 @@ print("Deu certo?")
 #Sabado
 #Terça 
 #Quarta
-#Quinta 
+#Quinta
+#Sexta

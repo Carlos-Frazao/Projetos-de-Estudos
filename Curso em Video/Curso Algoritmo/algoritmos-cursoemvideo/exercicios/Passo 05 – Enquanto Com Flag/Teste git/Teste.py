@@ -34,3 +34,4 @@ print("Deu certo?")
 #Segunda
 #Terça
 #Quarta gav
+#Sexta

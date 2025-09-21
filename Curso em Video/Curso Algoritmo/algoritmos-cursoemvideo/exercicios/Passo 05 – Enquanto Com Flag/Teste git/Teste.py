@@ -36,3 +36,4 @@ print("Deu certo?")
 #Quarta gav
 #Sexta
 #Sabado
+#Domingo

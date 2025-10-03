@@ -1,6 +1,6 @@
 algoritmo "Olá, Mundo!"
 var
-    // Declaração da variável msg do tipo caractere
+    // Declaração da variável msg do tipo caractere.
     msg: caractere
 inicio
     // Atribuição de valor à variável msg.

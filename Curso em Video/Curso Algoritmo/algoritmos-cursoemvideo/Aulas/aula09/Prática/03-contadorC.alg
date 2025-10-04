@@ -11,7 +11,7 @@ inicio
     leia(n)
 
     // Enquanto o contador não chegar no número informado pelo usuário, ele não irá parar de contar.
-    enquanto (cont < n + 1) faca 
+    enquanto (cont <= n) faca 
         escreval(cont)
         cont <- cont + 1
     fimenquanto

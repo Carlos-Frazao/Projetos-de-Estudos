@@ -1,26 +1,27 @@
 algoritmo "DetectorPesado"
 var
     c: inteiro
-    p, mai: real
-    n, pesado: caractere
-procedimento topo() 
-inicio
-    limpatela
-    escreval("------------------------------------")
-    escreval(" D E T E C T O R   DE   P E S A D O ")
-    escreval(" Maior Peso ate agora: ", mai, "Kg")
-    escreval("------------------------------------")
-fimprocedimento
+    peso, maior_peso: real
+    nome, pesado: caractere
+    
+    procedimento topo() 
+    inicio
+        limpatela
+        escreval("------------------------------------")
+        escreval(" D E T E C T O R   DE   P E S A D O ")
+        escreval(" Maior Peso ate agora: ", maior_peso, "Kg")
+        escreval("------------------------------------")
+    fimprocedimento
 inicio
     topo()
     para c de 1 ate 5 faca 
         escreva("Digite seu nome: ")
-        leia(n)
+        leia(nome)
         escreva("Digite seu peso: ")
-        leia(p)
-        se (p > mai) entao
-            mai <- p
-            Pesado <- n
+        leia(peso)
+        se (peso > maior_peso) entao
+            maior_peso <- peso
+            Pesado <- nome
         fimse
         topo()
     fimpara

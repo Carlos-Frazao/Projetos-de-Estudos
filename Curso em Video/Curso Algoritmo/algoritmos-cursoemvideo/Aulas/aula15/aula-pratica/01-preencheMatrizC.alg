@@ -17,4 +17,3 @@ inicio
         escreval()
     fimpara
 fimalgoritmo
-//Teste 2, 4, 9, 5, 1, 7

@@ -4,19 +4,19 @@ var
    l, cad: Inteiro
    r: Caractere
    
-Procedimento MostraFileira()
-var i: Inteiro
-inicio
-   Para i <- 1 ate 10 faca
-      Se (B[i] = "") entao
-         Escreva ("[ B", i:2, " ]")
-      senao
-         Escreva ("[ --- ]")
-      FimSe
-   FimPara
-   EscrevaL()
-   EscrevaL("------------------------------------------------------------------------")
-FimProcedimento
+   Procedimento MostraFileira()
+   var i: Inteiro
+   inicio
+      Para i <- 1 ate 10 faca
+         Se (B[i] = "") entao
+            Escreva ("[ B", i:2, " ]")
+         senao
+            Escreva ("[ --- ]")
+         FimSe
+      FimPara
+      EscrevaL()
+      EscrevaL("------------------------------------------------------------------------")
+   FimProcedimento
 
 inicio
    Repita

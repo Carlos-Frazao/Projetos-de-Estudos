@@ -50,3 +50,4 @@ print("Deu certo?")
 #Terça
 #Quinta
 #Domingo
+#Segunda

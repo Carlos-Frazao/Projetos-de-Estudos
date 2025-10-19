@@ -55,3 +55,4 @@ print("Deu certo?")
 #Quinta
 #Sexta.
 #Sabado.
+#Domingo

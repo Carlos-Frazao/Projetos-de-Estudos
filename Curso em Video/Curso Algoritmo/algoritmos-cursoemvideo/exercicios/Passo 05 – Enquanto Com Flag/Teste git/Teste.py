@@ -66,3 +66,4 @@ print("Deu certo?")
 #Sabado
 #Domingo
 #Segunda
+#Terça

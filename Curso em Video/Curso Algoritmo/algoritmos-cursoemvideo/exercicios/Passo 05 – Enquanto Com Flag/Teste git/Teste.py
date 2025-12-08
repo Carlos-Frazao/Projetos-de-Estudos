@@ -69,4 +69,5 @@ print("Deu certo?")
 #Terça
 #Quarta
 #Quinta
-#Sexta 
+#Sexta
+#Segunda

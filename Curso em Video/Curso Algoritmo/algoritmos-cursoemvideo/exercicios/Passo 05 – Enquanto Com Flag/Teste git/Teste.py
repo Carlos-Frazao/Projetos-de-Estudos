@@ -25,4 +25,5 @@ if __name__ == "__main__":
 # Sexta
 # Sábado
 # Segunda
-# Terça 
+# Terça
+# Quarta

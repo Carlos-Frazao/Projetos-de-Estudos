@@ -30,25 +30,4 @@ fimalgoritmo
 //mulheres. O programa vai perguntar ao usuário se ele quer continuar ou não 
 //sempre que ler os dados de um funcionário.
 
-
 //Tenho que arrumar esse código
-//Teste
-//Teste
-//Teste
-//TEste
-//Teste
-//Teste
-//Teste notebook, teste depois de configurar o git
-//Teste
-//Teste 
-//Teste
-//Teste
-//Teste
-//Teste
-//Teste 
-//Teste git hub 2
-//Teste
-//Teste
-//Teste
-//Teste
-//Teste

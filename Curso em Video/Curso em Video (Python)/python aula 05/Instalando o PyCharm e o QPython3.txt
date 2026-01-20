@@ -1,0 +1,11 @@
+Nós do CursoemVideo sempre recomendamos assistir a aula completa, mas se quiser aprender diretamente uma parte específica, clique nos marcadores de tempo a seguir:
+
+1:02 - Onde é possível programar em Python
+1:35 - Quer mais aulas? Veja aqui!
+3:10 - Como ajudar?
+4:35 - Quando o curso volta?
+5:39 - O que é uma IDE?
+7:16 - Instalando o PyCharm no Windows
+10:14 - Instalando o PyCharm no MacOS
+13:02 - Instalando o PyCharm no Linux
+16:59 - Instalando o QPython3 no Android

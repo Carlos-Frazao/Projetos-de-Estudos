@@ -1,0 +1,3 @@
+O Python é uma linguagem interpretada, mas será que você sabe o que é um interpretador e como ele funciona? Veja detalhadamente o funcionamento interno do Python e siga as instruções para instalar a Linguagem Python no seu computador.
+
+O Python é compatível com vários sistemas operacionais como o Microsoft Windows, distribuições Linux e o Mac OS. Veja como instalar o Python e o IDLE.

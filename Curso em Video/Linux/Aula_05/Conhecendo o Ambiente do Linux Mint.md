@@ -40,4 +40,3 @@ O Linux funciona com base em **Repositórios** (lojas de aplicativos seguras na 
 - Tudo é verificado através de chaves de autenticação para garantir que o software é legítimo e seguro.
 
 ---
-*Resumo estruturado para consulta e domínio do ambiente gráfico.*

@@ -21,7 +21,7 @@ Para criar o instalador, foi utilizada a ferramenta **YUMI (Your Universal Multi
 
 Outras opções:
 - Ventoy
-- balela Etche
+- balena Etche
 - Rufuf
 
 

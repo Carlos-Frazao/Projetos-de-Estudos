@@ -1,1 +1,12 @@
 /Curso em Video/Curso Java/Aulas/Aula 04/Primeiro_Programa/target/
+# Ignorar ambientes virtuais
+.venv/
+venv/
+env/
+
+# Ignorar configurações do VS Code
+.vscode/
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.pyc

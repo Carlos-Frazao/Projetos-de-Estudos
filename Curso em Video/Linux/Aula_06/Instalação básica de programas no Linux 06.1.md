@@ -42,9 +42,3 @@ Para programas que não estão na "lojinha", como o **Google Chrome**, o process
 - **Blender:** Suite completa para modelagem e animação 3D, usada profissionalmente no mundo todo.
 
 ---
-
-## 💡 Dica Importante
-Sempre prefira baixar softwares diretamente dos repositórios oficiais (através da lojinha) ou dos sites oficiais dos desenvolvedores. Isso garante que você está instalando uma versão segura e compatível com o seu sistema.
-
----
-*Resumo estruturado para consulta e prática de instalação de softwares.*

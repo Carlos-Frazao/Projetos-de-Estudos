@@ -24,7 +24,7 @@ O **APT (Advanced Package Tool)** é o comando padrão para gerenciar softwares 
 
 ### 3. Comando dpkg (Instalação de Arquivos Locais)
 Quando você baixa um arquivo diretamente da internet (como o **Visual Studio Code** da Microsoft), você utiliza o `dpkg`.
-- **Formato do arquivo:** `.deb`
+- **Formato do arquivo:** **Debian Package** `.deb`  **RPM Package Manager** `.rpm`
 - **Comando de Instalação:** `sudo dpkg -i nome-do-arquivo.deb`
 - **Diferença:** O `dpkg` instala o arquivo local que você baixou, enquanto o `apt` busca o programa nos repositórios online.
 
@@ -44,4 +44,3 @@ No Linux, ações que alteram o sistema (como instalar ou remover programas) exi
 - **Segurança:** O Linux Mint bloqueia o usuário "Root" por padrão para evitar que o usuário cometa erros fatais acidentalmente.
 
 ---
-*Resumo estruturado para consulta e domínio técnico da instalação de softwares.*

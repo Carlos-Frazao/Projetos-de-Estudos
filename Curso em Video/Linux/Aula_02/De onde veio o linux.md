@@ -15,7 +15,7 @@ Nesta aula, Gustavo Guanabara e Ricardo Pinheiro mergulham na história da compu
 Tudo começou nos anos 60 com o projeto **Multics**, que visava criar um sistema de tempo compartilhado. Em 1969, Ken Thompson e Dennis Ritchie (criador da linguagem C) desenvolveram o **Unix** no Bell Labs. O Unix foi inovador por ser escrito em C, o que permitia que ele fosse portado para diferentes tipos de computadores, algo raro na época.
 
 ### 2. Richard Stallman e o Projeto GNU
-Nos anos 80, as empresas começaram a fechar o código-fonte dos softwares. Richard Stallman, um hacker do MIT, ficou frustrado ao não conseguir consertar o driver de uma impressora e decidiu criar o **Projeto GNU** (GNU's Not Unix). Seu objetivo era criar um sistema operacional completo que fosse totalmente livre para ser estudado, modificado e compartilhado.
+Nos anos 80, as empresas começaram a fechar o código-fonte dos softwares. Richard Stallman, um hacker do MIT, ficou frustrado ao não conseguir consertar o driver de uma impressora e decidiu criar o **Projeto GNU.** É um acrônimo recursivo para (GNU não é Unix). Seu objetivo era criar um sistema operacional completo que fosse totalmente livre para ser estudado, modificado e compartilhado.
 
 ### 3. O Surgimento do Kernel Linux
 Em 1991, **Linus Torvalds**, um estudante finlandês de ciência da computação, queria um sistema semelhante ao Unix para rodar em seu PC (que usava processador Intel 386). Ele começou a desenvolver o **Kernel** (o núcleo do sistema) e o disponibilizou na internet pedindo ajuda a outros programadores. Esse núcleo, somado às ferramentas já criadas pelo Projeto GNU, formou o que hoje conhecemos como **GNU/Linux**.  

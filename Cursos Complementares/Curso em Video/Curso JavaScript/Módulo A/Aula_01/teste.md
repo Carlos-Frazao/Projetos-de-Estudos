@@ -42,3 +42,4 @@ No vídeo, o comando `document` é o ponto de partida para quase todas as intera
     * **Mudar a cor do fundo:** `document.body.style.background = 'black'`. Aqui, o comando acessa o "corpo" (body) do documento para mudar seu estilo.
     * **Selecionar elementos:** O professor utiliza o `document.querySelector()` para encontrar um elemento específico (como a logo do Google ou um título de notícia) e alterá-lo.
     * **Alterar Texto:** Ele usa `document.querySelector(...).innerText = 'Novo Texto'` para mudar o título de uma notícia no site do G1.
+    

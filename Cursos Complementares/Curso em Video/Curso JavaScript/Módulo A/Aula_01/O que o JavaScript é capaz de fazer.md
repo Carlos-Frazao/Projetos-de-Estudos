@@ -1,10 +1,10 @@
-# Resumo: Licenças e Liberdades no Mundo Linux (Curso Linux #03)
+# O que o JavaScript é capaz de fazer (Curso JavaScript #01)
 
-Nesta aula, Gustavo Guanabara e Ricardo Pinheiro explicam a importância das licenças de software, focando especialmente nas liberdades que o software livre oferece e como as empresas conseguem lucrar com esse modelo.
+Nesta aula, Gustavo Guanabara Introduz o curso JavaScript
 
 ## 📌 Informações Gerais
 - **Canal:** [Curso em Vídeo](https://www.youtube.com/@cursoemvideo)
-- **Apresentadores:** Gustavo Guanabara e Ricardo Pinheiro.
+- **Apresentadores:** Gustavo Guanabara
 - **Link do Vídeo:** [Assista aqui](https://www.youtube.com/watch?v=Ptbk2af68e8)
 
 ---
@@ -42,3 +42,4 @@ No vídeo, o comando `document` é o ponto de partida para quase todas as intera
     * **Mudar a cor do fundo:** `document.body.style.background = 'black'`. Aqui, o comando acessa o "corpo" (body) do documento para mudar seu estilo.
     * **Selecionar elementos:** O professor utiliza o `document.querySelector()` para encontrar um elemento específico (como a logo do Google ou um título de notícia) e alterá-lo.
     * **Alterar Texto:** Ele usa `document.querySelector(...).innerText = 'Novo Texto'` para mudar o título de uma notícia no site do G1.
+    

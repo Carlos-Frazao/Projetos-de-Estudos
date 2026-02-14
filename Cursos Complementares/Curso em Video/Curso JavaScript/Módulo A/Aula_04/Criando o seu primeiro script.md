@@ -1,0 +1,42 @@
+# Criando o seu primeiro script (Curso JavaScript #04)
+
+Nesta aula prática, Gustavo Guanabara ensina como organizar o ambiente de trabalho e criar o primeiro arquivo HTML integrado com CSS e JavaScript, demonstrando a interação básica com o usuário através de comandos de janela.
+
+## 📌 Informações Gerais
+- **Canal:** [Curso em Vídeo](https://www.youtube.com/@cursoemvideo)
+- **Apresentador:** Gustavo Guanabara.
+- **Link do Vídeo:** [Assista aqui](https://www.youtube.com/watch?v=OmmJBfcMJA8)
+
+---
+
+## 1. Organização do Ambiente
+Um bom programador deve manter seus arquivos organizados:
+* **Pasta do Projeto:** Foi criada uma pasta chamada `cursojs` e, dentro dela, subpastas para cada aula (ex: `aula04`).
+* **Visual Studio Code:** A pasta do curso foi aberta no VS Code para facilitar a navegação entre os exercícios.
+* **Layout de Tela:** A recomendação é deixar o VS Code de um lado e o navegador do outro para visualizar as mudanças em tempo real.
+
+## 2. Estrutura Básica (HTML + CSS)
+O primeiro exercício (`ex001.html`) utiliza a estrutura do HTML5:
+* **HTML:** Define o conteúdo e a estrutura (tags como `h1` para títulos e `p` para parágrafos).
+* **CSS:** Define o estilo visual. O código foi inserido dentro da tag `<style>` no cabeçalho (`<head>`), alterando cores de fundo e fontes.
+* **Maldição do "Olá, Mundo":** Seguindo a tradição, o primeiro texto exibido foi "Olá, Mundo!" para garantir boa sorte no aprendizado.
+
+## 3. Primeiros Comandos JavaScript
+O código JavaScript foi inserido antes do fechamento da tag `</body>` usando a tag `<script>`. Foram apresentados três comandos básicos de interação:
+
+* **`window.alert('Mensagem')`**: Exibe uma caixa de alerta simples com um botão "OK".
+* **`window.confirm('Pergunta')`**: Exibe uma caixa com botões "OK" e "Cancelar" (ideal para confirmações).
+* **`window.prompt('Pergunta')`**: Exibe uma caixa com um campo de entrada de texto para o usuário digitar uma informação.
+
+## 4. Diferenças entre as Tecnologias
+* **HTML:** Linguagem de **Marcação** (Conteúdo).
+* **CSS:** Linguagem de **Estilo** (Aparência).
+* **JavaScript:** Linguagem de **Programação** (Interatividade).
+
+## 5. Observações Importantes
+* **Sintaxe:** JavaScript diferencia letras maiúsculas de minúsculas (*case-sensitive*).
+* **Ponto e vírgula:** No JavaScript moderno, o uso do `;` ao final dos comandos é opcional na maioria dos casos, e o professor optou por não utilizá-lo neste curso para manter o código mais limpo.
+* **Ordem de Execução:** Os comandos dentro da tag `<script>` são executados na ordem em que aparecem.
+
+---
+**Próximo Passo:** Na próxima aula, aprenderemos sobre **Variáveis**, que permitem guardar as informações digitadas pelo usuário nos comandos de `prompt`.

@@ -69,3 +69,6 @@ function main() {
 }
 
 main();
+
+// Exportando funções kskskskks
+module.exports = {testando_operadores, atribuicao, precedencia, auto_atribuicao, incremento};

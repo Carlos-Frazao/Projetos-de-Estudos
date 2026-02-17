@@ -1,4 +1,4 @@
-# Resumo: Operadores (Parte 2) (Curso JavaScript #08)
+# Operadores (Parte 2) (Curso JavaScript #08)
 
 Nesta aula, Gustavo Guanabara conclui o estudo dos operadores, abordando os operadores relacionais, lógicos e o operador ternário, além de reforçar a ordem de precedência em expressões complexas.
 
@@ -46,4 +46,3 @@ Uma forma simplificada de escrever uma condicional em uma única linha. Possui t
     * Caso contrário, o resultado é "Reprovado".
 
 ---
-**Dica de Estudo:** O operador ternário é excelente para atribuições rápidas de variáveis baseadas em uma condição simples. Pratique no terminal do Node.js criando pequenos testes de idade ou notas.

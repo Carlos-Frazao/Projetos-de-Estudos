@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+
+    <style>
+        body {
+            background:rgb(68, 125, 199);
+            color:rgb(255, 253, 253);
+            font: normal 15pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique aqui</div>
+
+    <p>Navegador: <span id="nv">...</span></p>
+    <p>Endereço do site: <span id="url-site">...</span></p>
+    <script>
+        // POR ID
+        let d = window.document.getElementById('msg'); // Pegando o id
+        d.style.background='green'; // Mudando a cor
+        d.innerText='Estou aguardando';
+        
+    </script>
+    
+    <!--Botão de voltar-->
+    <a href="./index.html" style="
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    ">
+    Voltar para o Início
+</body>
+</html>

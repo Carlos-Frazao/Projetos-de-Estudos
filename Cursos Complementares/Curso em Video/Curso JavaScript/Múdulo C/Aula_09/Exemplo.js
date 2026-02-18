@@ -11,5 +11,4 @@ Por Seletor`);
 function main() {
     selecionado();
 }
-
 main();

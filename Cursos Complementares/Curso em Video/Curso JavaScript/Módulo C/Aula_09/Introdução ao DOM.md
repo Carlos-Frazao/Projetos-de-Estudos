@@ -23,7 +23,8 @@ A estrutura segue uma ordem de "pais" e "filhos" (*parents* e *children*):
     * **html:** Filho do document.
         * **head:** Contém metadados e títulos.
         * **body:** Contém o conteúdo visual (h1, p, div, etc.).
-            <img src="./imagem/árvores.png" alt="Árvore DOM" width="200">
+
+        <img src="./imagem/árvores.png" alt="Árvore DOM" width="200">
 
 ## 3. Métodos de Seleção de Elementos
 Existem cinco formas principais de selecionar elementos para manipulá-los:

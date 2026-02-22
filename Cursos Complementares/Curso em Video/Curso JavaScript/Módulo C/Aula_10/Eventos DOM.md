@@ -1,4 +1,4 @@
-# Resumo: Eventos DOM (Curso JavaScript #10)
+# Eventos DOM (Curso JavaScript #10)
 
 Nesta aula, Gustavo Guanabara explica o conceito de eventos, como o JavaScript reage às interações do usuário e como utilizar funções para criar páginas dinâmicas.
 

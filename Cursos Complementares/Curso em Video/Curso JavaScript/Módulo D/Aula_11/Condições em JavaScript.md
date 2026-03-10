@@ -51,7 +51,7 @@ O mesmo conceito de condição (o radar de trânsito) foi levado para uma págin
     2. Resgatar o valor digitado usando `document.querySelector('input#txtvel').value`.
     3. Converter esse valor para número com `Number()`.
     4. Aplicar a condição simples (`if (vel > 60)`).
-    5. Exibir mensagens na tela concatenando valores (usando `res.innerHTML += ...` para não apagar mensagens anteriores).
+    5. Exibir mensagens na tela concatenando valores (usando `res.innerHTML += ...` para não apagar mensagens anteriores...)
 
 ---
 **Desafio Prático:** Ao final da aula, foi proposto um desafio: criar um sistema web (HTML + JS) que pergunte a nacionalidade do usuário e mostre se ele é brasileiro ou estrangeiro, utilizando a lógica da condição composta ensinada nesta aula.

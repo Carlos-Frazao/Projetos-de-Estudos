@@ -61,8 +61,13 @@ A aula termina com o Guanabara lançando um **desafio prático** para o aluno ir
 
 1.  **Desafio 1 (Idioma do Sistema):** Criar um programa que identifique em qual idioma o sistema operacional está rodando (ex: `pt_BR`).
     *   *Dica implícita:* Pesquisar pelas classes `Locale` ou propriedades do `System`.
+
+<img src="Questões/desafio1.png" width="900" alt="#">
+
 2.  **Desafio 2 (Resolução de Tela):** Criar um programa que descubra qual a resolução do monitor do usuário (ex: `1280 x 720`).
     *   *Dica implícita:* Pesquisar pela classe `Toolkit` do pacote `java.awt`.
+
+<img src="Questões/desafio2.png" width="900" alt="#">
 
 O objetivo não é copiar código pronto, mas desenvolver a habilidade de ler documentação e buscar soluções em fóruns (uma rotina diária de qualquer programador sênior).
 
